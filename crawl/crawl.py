@@ -16,10 +16,10 @@ from selenium.webdriver.support import expected_conditions as EC
 def get_image_title(url):
     # 웹 드라이버 초기화
     # driver_path = "C:\\Users\\Rectworks\\PycharmProjects\\chromedriver\\chromedriver.exe"
-#     driver_path = "./chromdriver"
+    driver_path = r"/home/youngbo/Desktop/ThumbDiffusion/crawl/chromdriver.exe"
 #     driver = webdriver.Chrome(driver_path)
 #     driver = webdriver.Chrome(ChromeDriverManager().install())
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(executable_path=r"/home/youngbo/Desktop/ThumbDiffusion/crawl/chromedriver")
     driver.implicitly_wait(5) # or bigger second
     # 열고자 하는 채널 -> 동영상 목록으로 된 url 페이지를 엶
     driver.get(url)
