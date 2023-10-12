@@ -1,2 +1,2 @@
 # ThumbDiffusion
-![캡처](images/uploads/ThumbDiff Diagram.png)
+<img src="images/uploads/ThumbDiff Diagram.png">
